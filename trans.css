@@ -1,0 +1,104 @@
+header{
+    background-color: black;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+ }
+ body{
+    background-color: lightcoral;
+    margin: 0px;
+    display: flex;
+ }
+  
+  .one {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    transition: all ease-in 5s 2s;
+  }
+  .one img{
+    transition-duration: 4s;
+    transition-delay: 2s;
+    animation-name: animation;
+    position: relative;
+    transition-duration: 8s;
+
+  }
+  /* @keyframes animation{
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:skyblue; left:150px; top:0px;}
+  } */
+  .two{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 125px;
+    left: 250px;
+    transition: all ease-in 5s 2s;
+  }
+  .two img{
+  width: 100%;
+  height: 80%;
+  object-fit: cover; 
+  transition: all ease-in 5s 2s;
+  }
+
+  .three{
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    top: 30px;
+    transition: all ease-in 5s 2s;
+  }
+  .four{
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    top: 30px;
+    transition: 0.3s ease-in;
+  }
+
+  .one:hover{
+    background-color: aqua;
+    transform: rotate(45deg);
+  }
+  .one:hover img{
+    border-radius: 50%;
+    translate: 80px 0px;
+  }
+
+  .two:hover{
+    background-color: palegreen;
+    transform: scale(1.1);
+  }
+  .two:hover img{
+    transform: scale(1.1);
+  }
+
+  .three:hover{
+    transform: skewY(10deg);
+  }
+  .four:hover{
+    color: blue;
+    transform: scale(0.9);
+  }
+
+.footer{
+    background-color: black;
+    position: fixed;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+  
+
+
+  
+  
